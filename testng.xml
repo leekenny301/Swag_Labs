@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/ylhke/IdeaProjects/swaglabs">
+        <classes>
+            <class name="com.saucedemo.testcases.logintests.LoginIncorrectPasswordTest">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="com.saucedemo.testcases.logintests.LoginLockedOutUserTest">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="com.saucedemo.testcases.logintests.LoginSuccessfulTest">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="com.saucedemo.testcases.producttests.CheckoutCompleteTest">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
