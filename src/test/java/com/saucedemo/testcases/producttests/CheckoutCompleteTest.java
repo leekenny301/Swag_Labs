@@ -23,7 +23,7 @@ public class CheckoutCompleteTest extends BaseTest {
         checkoutOnePage.waitForElementToAppear(checkoutOnePage.getBtnContinue());
         checkoutOnePage.setTxtFirstName(TestData.FIRSTNAME.getData());
         checkoutOnePage.setTxtLastName(TestData.LASTNAME.getData());
-        checkoutOnePage.setTxtPostalCode(TestData.POSTALCODE.getData());
+        checkoutOnePage.setTxtPostalCode(TestData.POSTCODE.getData());
         checkoutOnePage.clickBtnContinue();
 
         checkoutTwoPage.clickBtnFinish();

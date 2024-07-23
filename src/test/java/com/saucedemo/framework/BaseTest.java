@@ -24,7 +24,6 @@ public abstract class BaseTest {
     protected static CheckoutTwoPage checkoutTwoPage;
     protected static CheckoutCompletePage checkoutCompletePage;
 
-
     @BeforeClass
     protected void setup(){
         WebDriverManager.chromedriver().setup();

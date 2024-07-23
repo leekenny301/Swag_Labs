@@ -7,7 +7,7 @@ public enum TestData {
     WRONG_PASSWORD("wrong_password"),
     FIRSTNAME("Kenny"),
     LASTNAME("Lee"),
-    POSTALCODE("12345"),
+    POSTCODE("12345"),
     ;
 
     private final String credentials;
