@@ -18,9 +18,12 @@ public class CheckoutOnePage extends BasePage {
         driver.get(PageURL.CHECKOUT_ONE_URL.getPageURL());
     }
 
+    // Getters
     public WebElement getBtnContinue(){
         return btnContinue;
     }
+
+    // Setters
     public void setTxtFirstName(String firstName){
         txtFirstName.sendKeys(firstName);
     }
@@ -30,6 +33,8 @@ public class CheckoutOnePage extends BasePage {
     public void setTxtPostalCode(String postalCode){
         txtPostalCode.sendKeys(postalCode);
     }
+
+    // Actions
     public void clickBtnContinue(){
         btnContinue.click();
     }

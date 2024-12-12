@@ -14,6 +14,7 @@ public class CheckoutTwoPage extends BasePage {
         driver.get(PageURL.CHECKOUT_TWO_URL.getPageURL());
     }
 
+    // Actions
     public void clickBtnFinish(){
         btnFinish.click();
     }
